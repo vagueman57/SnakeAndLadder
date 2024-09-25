@@ -133,8 +133,8 @@ public:
 };
 
 int main() {
-    int boardSize = 100; // Standard board size
-    vector<string> playerNames = {"Alice", "Bob", "Charlie"}; // Example player names
+    int boardSize = 100; 
+    vector<string> playerNames = {"Raj", "Himanshu", "Priya"}; 
 
     Game snakeLadderGame(boardSize, playerNames);
     snakeLadderGame.play();
